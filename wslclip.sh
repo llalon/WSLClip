@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
 # Send stdin to wslclip.exe as arg
 read clip
-powershell.exe "WSLClip.exe $clip"
+powershell.exe wslclip.exe $clip
+
