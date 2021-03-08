@@ -1,0 +1,10 @@
+[package]
+name = "wslclip"
+version = "0.1.0"
+authors = ["Liam <71791017+llalon@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clipboard-win = "4.0.3"

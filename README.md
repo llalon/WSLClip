@@ -1,14 +1,21 @@
 # WSLClip
-A utility to pipe outputs to the windows clipboard from WSL.
+A small rust utility to pipe outputs to the windows clipboard from WSL.
 
 ## Usage
 
-Add the output of command to the windows clipboard.
+##### From Linux (WSL):
+
+Add the output of command to the windows clipboard. 
 ```{bash}
 cat file.txt | wslclip.sh
 ```
+Ensure wslclip.sh is included in user path.
 
 ## Installation
-Build the solution and add WSLClip.exe to the path in windows.
 
-Add wslclip.sh to the linux path in wsl.
+##### From Windows:
+
+Ensure rust is installed and added to the windows path.
+```{bash}
+cargo install --path wslclip
+```
